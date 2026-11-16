@@ -1,0 +1,16 @@
+{
+  "name": "json-inline-primitive-arrays",
+  "displayName": "JSON: Inline Primitive Arrays",
+  "description": "Built-in JSON formatting, except arrays of only primitives stay on one line.",
+  "version": "0.0.2",
+  "publisher": "local",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://example.invalid/local" },
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Formatters"],
+  "activationEvents": ["onLanguage:json", "onLanguage:jsonc"],
+  "main": "./extension.js",
+  "dependencies": {
+    "jsonc-parser": "^3.3.1"
+  }
+}
